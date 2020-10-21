@@ -1,44 +1,62 @@
 
 
-for i in range(10 + 12):
-    print(i)
-
-maxola = "Dumbalinyolo"
-
-for umudwa in maxola:
-    print(umudwa)
-    print("Utsintso")
-
-
-num = int(input("Number"))
-factorial = 1
-
-if num < 0:
-    print("Num must be positive")
-elif num == 0:
-    print("Factoial is equal to 1")
-else:
-    for i in range(1, num * 1):
-        factorial = factorial * (i + 1)
-print(factorial)
+# for i in range(101):
+#     print(i)
+# i = 1
+# while i < 101:
+#     print(f' Count {i}')
+#     print('************')
+#     i += 1
 
 
 
+# maxola = "Dumbalinyolo"
 
-# Guessing Game
+# for umudwa in maxola:
+#     print(umudwa)
+#     print("Utsintso")
 
-num = 8
-guess_count = 0
-guess_limit = 4
+'''
 
-while guess_count < guess_limit:
-    guess = int(input("Guess: "))
-    guess_count += 1
-    if guess == num:
-        print("You win fucker")
-        break
-else:
-    print("Its your loss")
+a = 10
+print(' enter any number')
+num = int(input())
+ans = a + num
+print(ans)
+
+'''
+
+
+
+# num = int(input("Number"))
+# factorial = 1
+
+# if num < 0:
+#     print("Num must be positive")
+# elif num == 0:
+#     print("Factoial is equal to 1")
+# else:
+#     for i in range(1, num * 1):
+#         factorial = factorial * (i + 1)
+# print(factorial)
+
+
+
+
+# # Guessing Game
+
+# num = 8
+# guess_count = 0
+# guess_limit = 4
+
+# while guess_count < guess_limit:
+#     guess = int(input("Guess: "))
+#     guess_count += 1
+#     if guess == num:
+#         print("You win")
+#         break
+# else:
+#     print("Its your loss")
 
 
 import random
@@ -60,14 +78,14 @@ else:
     print("Congratulations you win")
 
 
-prices = [10, 20, 30]
+# prices = [10, 20, 30]
 
-total = 0
-symbol = "$"
+# total = 0
+# symbol = "$"
 
-for price in prices:
-	total += price
-print(f"Total: {symbol}{total}")
+# for price in prices:
+# 	total += price
+# print(f"Total: {symbol}{total}")
 
 
 

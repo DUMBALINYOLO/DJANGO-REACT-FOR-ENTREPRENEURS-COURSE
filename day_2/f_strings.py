@@ -1,6 +1,8 @@
 nam = 'dumba'
 surna = 'gosso'
 
-fnam = f'My name {nam} {surna}, and I am a geek'
+age = 29
 
-print(fnam)
+des = f'My name {nam} {surna}, and I am a {age} year old nerd'
+
+print(des)
