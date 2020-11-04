@@ -1,6 +1,7 @@
 class Car:
 
-	def __init__(self, wheels, model, engine):
+	def __init__ (self, wheels, model, engine):
+
 		self.wheels = wheels
 		self.model = model
 		self.engine = engine
@@ -9,10 +10,11 @@ class Car:
 
 
 
-bmw = Car(4, '5 SERIES', 'H7GHB0')
+
+bmw = Car(4, '5 SERIES', 'oooooo')
 toyota = Car(4, 'SKHUMBA', '2700I')
 benz = Car(4, 'STELLAR', 'H7GLLL')
 
-print(bmw.__dict__)
-print(toyota.__dict__)
-print(benz.__dict__)
+print(bmw)
+print(toyota)
+print(benz)

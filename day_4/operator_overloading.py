@@ -1,3 +1,4 @@
+
 class Student:
 
 	def __init__(self, mark, attendance):

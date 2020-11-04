@@ -3,7 +3,7 @@
 # c = True
 # d = 2.9
 
-# y = 'xylm'
+# # y = 'xylm'
 
 # print(type(a))
 # print(type(b))
@@ -12,20 +12,36 @@
 
 
 
-class Dog:
+# class Dog:
 	
 
-	def bark(self):
-		print('Hoof Hoof')
+# 	def bark(self):
+# 		print('Hoof Hoof')
 
-	def walk(self):
-		print('kuswayi kuswayi')
+# 	def walk(self):
+# 		print('kuswayi kuswayi')
 
 
-a = Dog()
+# a = Dog()
 
-a.bark()
-a.walk()
+# a.bark()
+# a.walk()
+
+
+class Animal:
+
+	def has_legs(self):
+		print("has four legs")
+
+
+cow = Animal()
+goat = Animal()
+
+cow.has_legs()
+goat.has_legs()
+
+
+
 
 
 
