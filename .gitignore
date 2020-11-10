@@ -1,0 +1,28 @@
+*klaus
+klaus
+klaus/
+/klaus/
+
+*vitual
+virtual
+/virtual
+virtual/
+/virtual/
+
+*.sqlite3
+*.pyc
+
+# Packaging
+*.pyc
+__pycache__
+*.egg-info
+/dist/
+node_modules
+/node_modules/
+
+# venv
+/bin/
+/lib/
+/share
+/pyvenv.cfg
+/pip-selfcheck.json
